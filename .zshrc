@@ -13,5 +13,5 @@ fi
 
 # if starship is installed, run the init script for bash
 if which starship &> /dev/null; then
-  eval "$(starship init bash)"
+  eval "$(starship init zsh)"
 fi
