@@ -19,3 +19,9 @@ fi
 if [ -d "$HOME/go" ]; then
   PATH="$HOME/go/bin:$PATH"
 fi
+
+# setup NVM if it exists
+if [ -d "$HOME/.nvm" ]; then
+  export NVM_DIR="$HOME/.nvm"
+  . "$NVM_DIR/nvm.sh"
+fi

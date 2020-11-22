@@ -14,4 +14,3 @@ fi
 alias ls="command ls ${colorflag}"
 alias ll="ls -lhF ${colorflag}"
 alias la="ls -lAF ${colorflag}"
-
