@@ -12,3 +12,5 @@
 	useConfigOnly = true
 [init]
 	defaultBranch = main
+[fetch]
+	prune = true
