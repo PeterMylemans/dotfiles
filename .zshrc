@@ -12,6 +12,6 @@ if [ -f ~/.aliases ]; then
 fi
 
 # if starship is installed, run the init script for bash
-if which starship &> /dev/null; then
+if command -v starship &> /dev/null; then
   eval "$(starship init zsh)"
 fi
