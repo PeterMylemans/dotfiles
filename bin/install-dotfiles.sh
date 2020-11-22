@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Usage: curl -fsSL https://raw.githubusercontent.com/petermylemans/dotfiles/main/bin/install-dotfiles.sh | bash
+
 git clone --bare git@github.com:petermylemans/dotfiles.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
